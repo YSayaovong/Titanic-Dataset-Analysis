@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titanic Dataset Analysis</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        header { text-align: center; padding: 20px; }
+        h1, h2, h3 { color: #333; }
+        .section { margin-bottom: 30px; }
+        .code { background-color: #f4f4f4; padding: 10px; border-radius: 5px; }
+        .visual { text-align: center; margin: 20px 0; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Analysis of the Titanic Dataset</h1>
+    <p><strong>Author:</strong> Yengkong Sayaovong</p>
+    <p><strong>Date:</strong> November 5, 2024</p>
+    <p><strong>Contact:</strong> <a href="mailto:YSayaovong@gmail.com">YSayaovong@gmail.com</a> | 
+       <a href="https://linkedin.com/in/ysayaovong" target="_blank">LinkedIn</a> | 
+       <a href="https://github.com/ysayaovong" target="_blank">GitHub</a></p>
+</header>
+
+<section class="section">
+    <h2>Abstract</h2>
+    <p>This project covers a detailed analysis of the Titanic dataset to uncover patterns and insights related to passenger survival. Using data preprocessing, exploratory data analysis (EDA), and a machine learning model, it demonstrates significant factors influencing survival. A Random Forest Classifier was used to predict outcomes with notable accuracy.</p>
+</section>
+
+<section class="section">
+    <h2>Introduction</h2>
+    <p>The Titanic dataset provides valuable insights into the factors that influenced passenger survival. This analysis included data preprocessing, EDA, feature engineering, and building a predictive model. This project aims to refine data analysis skills and gain practical machine learning experience.</p>
+</section>
+
+<section class="section">
+    <h2>Code Snippets</h2>
+    <div class="code">
+        <h3>1. Data Preprocessing</h3>
+        <p>Code for handling missing values by filling or dropping appropriately before moving on to exploratory analysis.</p>
+        <pre> <!-- Insert actual code here -->
+# Example: Handling missing values
+import pandas as pd
+data = pd.read_csv("titanic.csv")
+data.fillna(method='ffill', inplace=True)
+        </pre>
+    </div>
+    <div class="code">
+        <h3>2. Model Training</h3>
+        <p>Building a Random Forest Classifier to predict survival outcomes.</p>
+        <pre> <!-- Insert actual code here -->
+# Example: Model Training
+from sklearn.ensemble import RandomForestClassifier
+model = RandomForestClassifier(n_estimators=100)
+model.fit(X_train, y_train)
+        </pre>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Visualizations</h2>
+    <div class="visual">
+        <h3>Passenger Class Survival Rates</h3>
+        <img src="images/survival_by_class.png" alt="Survival Rates by Passenger Class">
+        <p>First-class passengers had the highest likelihood of survival, indicating socio-economic factors played a role.</p>
+    </div>
+    <div class="visual">
+        <h3>Age Distribution and Survival</h3>
+        <img src="images/survival_by_age.png" alt="Survival Rates by Age">
+        <p>Younger passengers, particularly children, had higher survival rates, supporting the “women and children first” policy.</p>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Conclusion</h2>
+    <p>This analysis of the Titanic dataset uncovered significant insights into survival factors, particularly passenger class and age. Data preprocessing, EDA, and machine learning were essential in achieving accurate predictions. Future improvements could involve further feature engineering and experimenting with other models.</p>
+</section>
+
+</body>
+</html>
