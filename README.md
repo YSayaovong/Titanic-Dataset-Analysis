@@ -41,7 +41,7 @@ The goal of this project is to analyze survival patterns from the Titanic datase
 ![Survival by Gender](images/survival_by_gender.png)  
 *Survival Rate Comparison Between Genders*
 
-![Survival by Class](survival_by_sex.png)  
+![Survival by Class](image/survival_by_sex.png)  
 *Passenger Class vs Survival Rate*
 
 ---
