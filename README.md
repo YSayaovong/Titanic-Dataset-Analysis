@@ -38,11 +38,20 @@ The goal of this project is to analyze survival patterns from the Titanic datase
 ---
 
 ### 🖼️ Visual Highlights
-![Survival by Gender](images/survival_by_gender.png)  
+![Survival by Gender](images/survival_by_sex.png)  
 *Survival Rate Comparison Between Genders*
 
-![Survival by Class](image/survival_by_sex.png)  
+![Survival by Class](images/survival_by_pclass.png)  
 *Passenger Class vs Survival Rate*
+
+![Age Distribution by Survival](images/age_distributin_by_survival.png)  
+*Age-Based Survival Patterns*
+
+![Correlation Heatmap](images/heatmap.png)  
+*Correlation of Numerical Features*
+
+![Survival Line Graph](images/line_graph.png)  
+*Survival Trends Over Age or Fare*
 
 ---
 
@@ -54,8 +63,11 @@ Titanic-Dataset-Analysis/
 ├── notebooks/
 │   └── Titanic_Analysis.ipynb
 ├── images/
-│   └── survival_by_gender.png
-│   └── survival_by_class.png
+│   └── survival_by_sex.png
+│   └── survival_by_pclass.png
+│   └── age_distributin_by_survival.png
+│   └── heatmap.png
+│   └── line_graph.png
 ├── README.md
 ```
 
@@ -66,6 +78,11 @@ Titanic-Dataset-Analysis/
 - Identified top survival drivers and explained patterns visually.
 - Enhanced storytelling and report presentation through clear labeling and layout.
 - Ready for extension to classification modeling or dashboard reporting.
+
+---
+
+### 🔗 Live Notebook
+👉 [View the Titanic Jupyter Notebook on GitHub](https://github.com/YSayaovong/Titanic-Dataset-Analysis)
 
 ---
 
