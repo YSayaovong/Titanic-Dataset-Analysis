@@ -10,7 +10,7 @@ The goal of this project is to analyze survival patterns from the Titanic datase
 - **IDE:** Jupyter Notebook
 - **Version Control:** Git/GitHub
 - **Visualization:** Statistical plots and feature insights
-- **Bonus Tools:** Power BI, Excel
+- **Bonus Tools:** Power BI, Excel, Tableau
 
 ---
 
@@ -71,11 +71,6 @@ Titanic-Dataset-Analysis/
 
 ---
 
-### 🔗 Live Notebook
-👉 [View the Titanic Jupyter Notebook on GitHub](https://github.com/YSayaovong/Titanic-Dataset-Analysis)
-
----
-
 ### 📅 Bonus Dashboards
 
 #### 📊 Power BI Version (Coming Soon)
@@ -87,6 +82,11 @@ Titanic-Dataset-Analysis/
 - Pivot tables: survival rates by demographics
 - Conditional formatting for survival insights
 - Slicers and charts to drive visual storytelling
+
+#### 📈 Tableau Dashboard (Coming Soon)
+- Interactive dashboard with survival trends
+- Filters for class, gender, and age group
+- Clean layout with charts and percentage breakdowns
 
 ---
 
