@@ -44,8 +44,6 @@ The goal of this project is to analyze survival patterns from the Titanic datase
 ![Survival by Class](images/survival_by_class.png)  
 *Passenger Class vs Survival Rate*
 
-_(Add more screenshots such as heatmap or age distribution as needed)_
-
 ---
 
 ### 📂 Repository Structure
