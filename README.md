@@ -41,14 +41,30 @@ The goal of this project is to analyze survival patterns from the Titanic datase
 ---
 
 ### 🖼️ Visual Highlights
-![Survival by Gender](images/survival_by_gender.png)  
-*Survival Rate Comparison Between Genders*
+<p align="center">
+  <img src="images/survival_by_sex.png" alt="Survival by Gender" width="500"/>
+  <br><em>Survival Rate Comparison Between Genders</em>
+</p>
 
-![Survival by Class](images/survival_by_class.png)  
-*Passenger Class vs Survival Rate*
+<p align="center">
+  <img src="images/survival_by_pclass.png" alt="Survival by Class" width="500"/>
+  <br><em>Passenger Class vs Survival Rate</em>
+</p>
 
-![Overall Survival Rate](images/overall_survival_rate.png)  
-*Pie Chart Showing Survival vs Non-Survival*
+<p align="center">
+  <img src="images/age_distributin_by_survival.png" alt="Age Distribution" width="500"/>
+  <br><em>Age Distribution by Survival</em>
+</p>
+
+<p align="center">
+  <img src="images/heatmap.png" alt="Correlation Heatmap" width="500"/>
+  <br><em>Feature Correlation Heatmap</em>
+</p>
+
+<p align="center">
+  <img src="images/line_graph.png" alt="Fare vs Survival" width="500"/>
+  <br><em>Fare Trend by Survival</em>
+</p>
 
 ---
 
@@ -67,9 +83,6 @@ Titanic-Dataset-Analysis/
 │   └── age_distributin_by_survival.png
 │   └── heatmap.png
 │   └── line_graph.png
-│   └── survival_by_gender.png
-│   └── survival_by_class.png
-│   └── overall_survival_rate.png
 ├── README.md
 ```
 
