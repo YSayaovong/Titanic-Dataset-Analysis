@@ -98,7 +98,7 @@ The goal of this project is to analyze survival patterns from the Titanic datase
 </p>
 
 #### 🗌 PDF Export of Power BI Dashboard
-- View: [`Titanic_Survival_Dashboard.pdf`](https://github.com/YSayaovong/Titanic-Dataset-Analysis/blob/main/data/Titanic_Survival_Dashboard.pdf)
+- View: [`Titanic_Survival_Dashboard.png`](https://github.com/YSayaovong/Titanic-Dataset-Analysis/blob/main/data/Titanic_Survival_Dashboard.png)
 
 ---
 
