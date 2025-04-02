@@ -83,6 +83,7 @@ Titanic-Dataset-Analysis/
 │   └── age_distributin_by_survival.png
 │   └── heatmap.png
 │   └── line_graph.png
+│   └── Titanic_Survival_Dashboard.PNG
 ├── README.md
 ```
 
@@ -112,7 +113,7 @@ Titanic-Dataset-Analysis/
 - View: [`Titanic_Survival_Dashboard.pdf`](https://github.com/YSayaovong/Titanic-Dataset-Analysis/blob/main/data/Titanic_Survival_Dashboard.pdf)
 
 <p align="center">
-  <img src="images/Titanic_Survival_Dashboard.png" alt="Power BI Dashboard Preview" width="700" />
+  <img src="images/Titanic_Survival_Dashboard.PNG" alt="Power BI Dashboard Preview" width="700" />
 </p>
 
 #### 🪑 Excel Dashboard (Coming Soon)
