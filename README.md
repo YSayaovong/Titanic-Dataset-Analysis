@@ -1,7 +1,7 @@
 ## 🚢 Titanic Dataset Analysis
 
 ### 🧩 Business Problem
-The goal of this project is to analyze survival patterns from the Titanic dataset and build a reproducible data pipeline that prepares the data for visualization in Excel, Power BI, and Tableau. This project demonstrates ETL best practices, calculated field creation, and dashboard design for executive-level storytelling.
+The goal of this project is to analyze survival patterns from the Titanic dataset and build a reproducible data pipeline that prepares the data for visualization in **Excel and Power BI**. This project demonstrates ETL best practices, calculated field creation, and dashboard design for executive-level storytelling.
 
 ---
 
@@ -9,7 +9,6 @@ The goal of this project is to analyze survival patterns from the Titanic datase
 - **Python:** Pandas, NumPy, Matplotlib, Seaborn
 - **Excel:** PivotTables, Slicers, KPI Calculations
 - **Power BI:** DAX, Interactive Visuals, Slicers, Drilldowns
-- **Tableau:** Filters, Interactivity, Visual Storytelling
 - **IDE:** Jupyter Notebook
 - **Version Control:** Git/GitHub
 
@@ -18,7 +17,7 @@ The goal of this project is to analyze survival patterns from the Titanic datase
 ### 📊 Project Objectives
 - Clean and transform Titanic dataset for analysis
 - Engineer useful features such as survival flag, child indicator, and family size
-- Build reproducible workflows for dashboarding in Power BI, Excel, and Tableau
+- Build reproducible workflows for dashboarding in Power BI and Excel
 - Communicate business-relevant survival insights with visual clarity
 
 ---
@@ -66,33 +65,13 @@ The goal of this project is to analyze survival patterns from the Titanic datase
   <br><em>Fare Trend by Survival</em>
 </p>
 
----
-
-### 📂 Repository Structure
-```
-Titanic-Dataset-Analysis/
-├── data/
-│   └── titanic.csv
-│   └── Titanic_Cleaned_ForPowerBI.csv
-│   └── Titanic_Survival_Dashboard.pdf
-├── notebooks/
-│   └── Titanic_Analysis.ipynb
-├── images/
-│   └── survival_by_sex.png
-│   └── survival_by_pclass.png
-│   └── age_distributin_by_survival.png
-│   └── heatmap.png
-│   └── line_graph.png
-│   └── Titanic_Survival_Dashboard.PNG
-├── README.md
-```
 
 ---
 
 ### 📌 Results & Outcomes
 - Cleaned and transformed dataset to support dashboard creation
 - Created new features to enhance survival prediction analysis
-- Built visuals across Power BI, Excel, and Tableau for executive-ready storytelling
+- Built visuals across Power BI and Excel for executive-ready storytelling
 - Delivered files ready for reuse, reporting, and portfolio display
 
 ---
@@ -109,14 +88,19 @@ Titanic-Dataset-Analysis/
 - Visuals: Clustered Column (Gender), Stacked Column (Class), Donut (Survival), Histogram (Age)
 - Filters: Slicers for Gender, Class, Age, Embarked
 
+#### 🖥️ Excel Dashboard
+- Visuals: Survival by Gender, Class, and Embarked
+- Includes: Column chart, pie chart, bar chart, slicer-friendly formatting
+- Image Preview:
+
+<p align="center">
+  <img src="images/Titanic_Survival_Dashboard_2.PNG" alt="Excel Dashboard Preview" width="700" />
+</p>
+
 #### 🗌 PDF Export of Power BI Dashboard
 - View: [`Titanic_Survival_Dashboard.pdf`](https://github.com/YSayaovong/Titanic-Dataset-Analysis/blob/main/data/Titanic_Survival_Dashboard.pdf)
 
-<p align="center">
-  <img src="images/Titanic_Survival_Dashboard.PNG" alt="Power BI Dashboard Preview" width="700" />
-</p>
-
-
 ---
 
-Stay tuned for the Excel and Tableau versions. This project will continue to evolve with multiple storytelling layers and dashboard tools.
+Thank you for exploring this project! Feel free to fork it, ask questions, or adapt the pipeline for your own datasets. More updates coming soon!
+
