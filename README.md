@@ -1,57 +1,54 @@
 ## 🚢 Titanic Dataset Analysis
 
 ### 🧩 Business Problem
-The goal of this project is to analyze survival patterns from the Titanic dataset and build a reproducible data pipeline that prepares the data for further modeling and reporting. This project showcases data wrangling, exploratory data analysis, and visualization for business storytelling.
+The goal of this project is to analyze survival patterns from the Titanic dataset and build a reproducible data pipeline that prepares the data for visualization in Excel, Power BI, and Tableau. This project demonstrates ETL best practices, calculated field creation, and dashboard design for executive-level storytelling.
 
 ---
 
 ### 🛠️ Tools & Technologies
 - **Python:** Pandas, NumPy, Matplotlib, Seaborn
+- **Excel:** PivotTables, Slicers, KPI Calculations
+- **Power BI:** DAX, Interactive Visuals, Slicers, Drilldowns
+- **Tableau:** Filters, Interactivity, Visual Storytelling
 - **IDE:** Jupyter Notebook
 - **Version Control:** Git/GitHub
-- **Visualization:** Statistical plots and feature insights
-- **Bonus Tools:** Power BI, Excel, Tableau
 
 ---
 
 ### 📊 Project Objectives
-- Clean and transform raw Titanic data for analysis.
-- Identify key survival factors such as age, gender, class, and fare.
-- Create compelling visualizations to communicate findings.
-- Build a reusable and documented workflow.
+- Clean and transform Titanic dataset for analysis
+- Engineer useful features such as survival flag, child indicator, and family size
+- Build reproducible workflows for dashboarding in Power BI, Excel, and Tableau
+- Communicate business-relevant survival insights with visual clarity
 
 ---
 
 ### 🔁 ETL Process
 1. **Extract:** Loaded Titanic dataset via Kaggle.
-2. **Transform:** Cleaned missing values, standardized formats, and engineered features like `IsChild`, `FamilySize`, and `Title`.
-3. **Load:** Prepared data is saved and ready for modeling or dashboarding.
+2. **Transform:**
+   - Removed irrelevant columns (Name, Ticket, Cabin)
+   - Created `IsChild`, `FamilySize`, `SurvivedText` columns
+   - Filled missing values for `Embarked`
+3. **Load:** Saved cleaned dataset as `Titanic_Cleaned_ForPowerBI.csv` and used it for dashboard builds.
 
 ---
 
 ### 📈 Key Insights
-- **Gender Impact:** Females had a significantly higher survival rate.
-- **Class Difference:** Passengers in 1st class were more likely to survive than those in 2nd or 3rd class.
-- **Fare & Survival:** Higher ticket fares correlated with higher survival rates.
-- **Children:** Children under age 10 had higher survival chances.
+- **Females and 1st class passengers** had the highest survival rates.
+- **Children under 10** had better odds than adults.
+- **Fare paid and class level** correlated with survival chances.
 
 ---
 
 ### 🖼️ Visual Highlights
-![Survival by Gender](images/survival_by_sex.png)  
+![Survival by Gender](images/survival_by_gender.png)  
 *Survival Rate Comparison Between Genders*
 
-![Survival by Class](images/survival_by_pclass.png)  
+![Survival by Class](images/survival_by_class.png)  
 *Passenger Class vs Survival Rate*
 
-![Age Distribution by Survival](images/age_distributin_by_survival.png)  
-*Age-Based Survival Patterns*
-
-![Correlation Heatmap](images/heatmap.png)  
-*Correlation of Numerical Features*
-
-![Survival Line Graph](images/line_graph.png)  
-*Survival Trends Over Age or Fare*
+![Overall Survival Rate](images/overall_survival_rate.png)  
+*Pie Chart Showing Survival vs Non-Survival*
 
 ---
 
@@ -60,6 +57,7 @@ The goal of this project is to analyze survival patterns from the Titanic datase
 Titanic-Dataset-Analysis/
 ├── data/
 │   └── titanic.csv
+│   └── Titanic_Cleaned_ForPowerBI.csv
 ├── notebooks/
 │   └── Titanic_Analysis.ipynb
 ├── images/
@@ -68,41 +66,39 @@ Titanic-Dataset-Analysis/
 │   └── age_distributin_by_survival.png
 │   └── heatmap.png
 │   └── line_graph.png
+│   └── survival_by_gender.png
+│   └── survival_by_class.png
+│   └── overall_survival_rate.png
 ├── README.md
+├── Titanic_Survival_Dashboard.pdf
 ```
 
 ---
 
 ### 📌 Results & Outcomes
-- Delivered a clean and well-structured notebook with reproducible EDA.
-- Identified top survival drivers and explained patterns visually.
-- Enhanced storytelling and report presentation through clear labeling and layout.
-- Ready for extension to classification modeling or dashboard reporting.
+- Cleaned and transformed dataset to support dashboard creation
+- Created new features to enhance survival prediction analysis
+- Built visuals across Power BI, Excel, and Tableau for executive-ready storytelling
+- Delivered files ready for reuse, reporting, and portfolio display
 
 ---
 
-### 🔗 Live Notebook
-👉 [View the Titanic Jupyter Notebook on GitHub](https://github.com/YSayaovong/Titanic-Dataset-Analysis)
+### 📅 Dashboards
 
----
+#### 📊 Power BI Dashboard
+- Download: [`Titanic_Survival_Dashboard.pbix`](https://github.com/YSayaovong/Titanic-Dataset-Analysis/blob/main/Titanic_Survival_Dashboard.pbix)
+- Visuals: Clustered Column (Gender), Stacked Column (Class), Donut (Survival), Histogram (Age)
+- Filters: Slicers for Gender, Class, Age, Embarked
 
-### 📅 Bonus Dashboards
-
-#### 📊 Power BI Version (Coming Soon)
-- Dynamic filters: class, gender, survival status
-- Slicers: Age group, fare range
-- Visuals: Stacked bar charts, donut charts, survival KPIs
+#### 🗌 PDF Export of Power BI Dashboard
+- View: [`Titanic_Survival_Dashboard.pdf`](https://github.com/YSayaovong/Titanic-Dataset-Analysis/blob/main/Titanic_Survival_Dashboard.pdf)
 
 #### 🪑 Excel Dashboard (Coming Soon)
-- Pivot tables: survival rates by demographics
-- Conditional formatting for survival insights
-- Slicers and charts to drive visual storytelling
+- Pivot charts and KPIs using slicers and conditional formatting
 
 #### 📈 Tableau Dashboard (Coming Soon)
-- Interactive dashboard with survival trends
-- Filters for class, gender, and age group
-- Clean layout with charts and percentage breakdowns
+- Interactive dashboard with filters and survival breakdown
 
 ---
 
-Stay tuned for updated links and demos. This project will evolve with new layers of storytelling and dashboarding.
+Stay tuned for the Excel and Tableau versions. This project will continue to evolve with multiple storytelling layers and dashboard tools.
