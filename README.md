@@ -87,7 +87,7 @@ The goal of this project is to analyze survival patterns from the Titanic datase
 - Download: [`Titanic_Survival_Dashboard.pbix`](https://github.com/YSayaovong/Titanic-Dataset-Analysis/blob/main/data/Titanic_Survival_Dashboard.pbix)
 - Visuals: Clustered Column (Gender), Stacked Column (Class), Donut (Survival), Histogram (Age)
 - Filters: Slicers for Gender, Class, Age, Embarked
-- 
+- Image Preview:
 <p align="center">
   <img src="images/Titanic_Survival_Dashboard.PNG" alt="Power BI Dashboard Preview" width="700" />
 </p>
