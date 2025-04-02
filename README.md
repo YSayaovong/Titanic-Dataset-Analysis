@@ -58,6 +58,7 @@ Titanic-Dataset-Analysis/
 ├── data/
 │   └── titanic.csv
 │   └── Titanic_Cleaned_ForPowerBI.csv
+│   └── Titanic_Survival_Dashboard.pdf
 ├── notebooks/
 │   └── Titanic_Analysis.ipynb
 ├── images/
@@ -70,7 +71,6 @@ Titanic-Dataset-Analysis/
 │   └── survival_by_class.png
 │   └── overall_survival_rate.png
 ├── README.md
-├── Titanic_Survival_Dashboard.pdf
 ```
 
 ---
@@ -83,15 +83,20 @@ Titanic-Dataset-Analysis/
 
 ---
 
+### 🔗 Live Notebook
+👉 [View the Titanic Jupyter Notebook on GitHub](https://github.com/YSayaovong/Titanic-Dataset-Analysis)
+
+---
+
 ### 📅 Dashboards
 
 #### 📊 Power BI Dashboard
-- Download: [`Titanic_Survival_Dashboard.pbix`](https://github.com/YSayaovong/Titanic-Dataset-Analysis/blob/main/Titanic_Survival_Dashboard.pbix)
+- Download: [`Titanic_Survival_Dashboard.pbix`](https://github.com/YSayaovong/Titanic-Dataset-Analysis/blob/main/data/Titanic_Survival_Dashboard.pbix)
 - Visuals: Clustered Column (Gender), Stacked Column (Class), Donut (Survival), Histogram (Age)
 - Filters: Slicers for Gender, Class, Age, Embarked
 
 #### 🗌 PDF Export of Power BI Dashboard
-- View: [`Titanic_Survival_Dashboard.pdf`](https://github.com/YSayaovong/Titanic-Dataset-Analysis/blob/main/Titanic_Survival_Dashboard.pdf)
+- View: [`Titanic_Survival_Dashboard.pdf`](https://github.com/YSayaovong/Titanic-Dataset-Analysis/blob/main/data/Titanic_Survival_Dashboard.pdf)
 
 #### 🪑 Excel Dashboard (Coming Soon)
 - Pivot charts and KPIs using slicers and conditional formatting
