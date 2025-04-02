@@ -111,6 +111,10 @@ Titanic-Dataset-Analysis/
 #### 🗌 PDF Export of Power BI Dashboard
 - View: [`Titanic_Survival_Dashboard.pdf`](https://github.com/YSayaovong/Titanic-Dataset-Analysis/blob/main/data/Titanic_Survival_Dashboard.pdf)
 
+<p align="center">
+  <img src="data/Titanic_Survival_Dashboard.pdf" alt="Power BI Dashboard Preview" width="700" />
+</p>
+
 #### 🪑 Excel Dashboard (Coming Soon)
 - Pivot charts and KPIs using slicers and conditional formatting
 
