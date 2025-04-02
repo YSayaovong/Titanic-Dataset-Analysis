@@ -116,11 +116,6 @@ Titanic-Dataset-Analysis/
   <img src="images/Titanic_Survival_Dashboard.PNG" alt="Power BI Dashboard Preview" width="700" />
 </p>
 
-#### 🪑 Excel Dashboard (Coming Soon)
-- Pivot charts and KPIs using slicers and conditional formatting
-
-#### 📈 Tableau Dashboard (Coming Soon)
-- Interactive dashboard with filters and survival breakdown
 
 ---
 
